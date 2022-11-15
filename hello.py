@@ -1,1 +1,2 @@
+pwd
 print('Hello world!')
