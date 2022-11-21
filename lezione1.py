@@ -1,2 +1,1 @@
-pwd
 print('Hello world!')

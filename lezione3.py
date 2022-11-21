@@ -15,5 +15,3 @@ def sum_csv(file_name):
         return None
     return somma
 
-#test = sum_csv('shampoo_sales.csv')
-#print(test)
