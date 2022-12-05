@@ -47,7 +47,7 @@ class NumericalCSVFile(CSVFile):
         return tmp
 
         
-"""shampoo1 = CSVFile('shampoo_sales.csv')
+shampoo1 = CSVFile('shampoo_sales.csv')
 shampoo2 = NumericalCSVFile('shampoo_sales.csv')
 print(shampoo1.get_data())
-print(shampoo2.get_data())"""
+print(shampoo2.get_data())
