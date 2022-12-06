@@ -33,7 +33,7 @@ class CSVFile():
                 start = int(start)        
                 
             except:
-                print('Errore: start non è un valore numerico')
+                print('Errore: start non è un valore numerico: {}'.format(start))
                 
         #controllo end
         if(end==None):
@@ -48,7 +48,7 @@ class CSVFile():
                 end = int(end)
 
             except:
-                print('Errore: end non è un valore numerico')
+                print('Errore: end non è un valore numerico: {}'.format(end))
 
         #controllo se end è minore di start
         if((end!=start) and (end<start)):
